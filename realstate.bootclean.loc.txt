@@ -1,0 +1,89 @@
+Propiedades
+
+	ID proveedor (es el identificador que tiene la propiedad en la API)
+	Fecha creada
+	Fecha de última actualización (este campo es importante)
+	Título (texto)
+	Descripción (texto largo)
+	
+	(property_features)
+
+	M2 edificados (numérico)
+	M2 total (numérico)
+	Ambientes (numérico)
+	Dormitorios (numérico)
+	Baños (numérico)
+	Baños Servicio (numérico)
+	
+	Plantas
+	Antigüedad
+	Cocheras
+
+		(property_aditional_features) ??
+	
+	Geoposición (Latitud / Longitud)
+	Foto principal
+	Galería de fotos
+	Videos
+	
+
+Tipos de operación ( property_operation  ACF )
+
+	Venta / Alquiler / Alquiler temporario
+
+Ubicación	(property_location)
+
+	Ciudad / Zona
+
+Luego lo que serían taxonomías y que se vinculan a la propiedad:
+
+Tipo de propiedad (property_type)
+
+	Por ej:
+
+	Casa
+	Apartamento
+	Terreno
+	Oficina
+	etc...
+
+
+Servicios (property_services)
+
+	Por ej: 
+	Agua corriente
+	Cable
+	Cloaca
+	Electricidad
+	Gas Natural
+	Internet
+	Teléfono
+	etc...
+
+
+Adicionales (property_aditionals)
+
+	Por ej:
+	Altillo
+	Balcón
+	Lavadero
+	etc...
+
+
+(property_prices)
+
+Una propiedad puede tener los 3 tipos de operación y a su vez precio para cada tipo.
+
+	Por ej.
+	Precio venta: 200.000
+	Precio alquiler: 14.000
+	Precio alquiler temporario (esto es más complicado, porque tiene opciones):
+	   1er quincena diciembre
+	   2da quincena diciembre
+	   1er quincena enero
+	   2da quincena enero
+	   1er quincena febrero
+	   2da quincena febrero
+
+	También puede ser por mes en particular:
+	   Agosto, Setiembre, etc...

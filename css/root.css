@@ -1,0 +1,109 @@
+/*
+
+	TODO, terminar de pasar estos: C:\xampp\htdocs\_www\bootclean-v8\_html\wp-content\themes\bootclean\_build\styles\less\mixins.less
+
+*/
+/*
+@mixin border-radius($a: .25rem) {
+	-webkit-border-radius: $a;
+	-moz-border-radius: $a;
+	border-radius: $a;
+}
+*/
+/*
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+/*
+
+/*
+$blue:    #0B486B !default;
+$indigo:  #6610f2 !default;
+$purple:  #BD1550 !default;
+$pink:    #FE4365 !default;
+$red:     #dc3545 !default;
+$orange:  #E97F02 !default;
+$yellow:  #F8CA00 !default;
+$green:   #8A9B0F !default;
+$teal:    #83AF9B !default;
+$cyan:    #00A0B0 !default;
+/*
+
+/*
+
+$primary:       $green !default;
+$secondary:     $purple !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+*/
+/*
+
+$theme-colors: map-merge((
+  "blue":    $blue,
+  "indigo":  $indigo,
+  "purple":    $purple,
+  "pink":       $pink,
+  "red":    $red,
+  "orange":     $orange,
+  "yellow":      $yellow,
+  "green":       $green,
+  "teal":       $teal,
+  "cyan":       $cyan
+), $theme-colors); 
+
+*/
+/*
+$nav-link-padding-y:
+$nav-link-padding-x:
+*/
+:root {
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+
+:root_colors {
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40; }
+
+:root_colors_each {
+  --navbar-light-color: rgba(0, 0, 0, 0.5); }
+
+:root_breakpoint {
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px; }
+
+/*# sourceMappingURL=root.css.map */
