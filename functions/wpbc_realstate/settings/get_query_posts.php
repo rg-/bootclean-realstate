@@ -242,13 +242,13 @@ add_filter('wpbc/filter/get_query_form/form_elements', function($form_elements, 
 
 	if( $query['post_type'] == 'property' && $form_id != 'property-home-form' ){
 
-		$form_elements['search'] = array( 
+		$form_elements['p_search'] = array(  
 			'type'=>'text',
 			'form_args'=>array( 
-				'form_id' => 'search',
+				'form_id' => 'p_search',
 				'label' => 'Search',
 				'placeholder' => 'Search',
-				'current' => !empty($query['search']) ? $query['search'] : '', 
+				'current' => !empty($query['p_search']) ? $query['p_search'] : '', 
 				'show_actions_reset' => true,
 			),
 		);
@@ -280,13 +280,13 @@ add_filter('wpbc/filter/get_query_form/form_elements', function($form_elements, 
 			),   
 		); 
 
-		$form_elements['order'] = array( 
+		$form_elements['p_order'] = array( 
 			'type'=>'radio',
 			'form_args'=>array( 
-				'form_id' => 'order',
+				'form_id' => 'p_order',
 				'label' => 'Order',
 				'label_all' => 'None',
-				'current' => !empty($query['order']) ? $query['order'] : 'DESC',
+				'current' => !empty($query['p_order']) ? $query['p_order'] : 'DESC',
 				'items' => array(
 					'DESC' => 'DESC',
 					'ASC' => 'ASC',
@@ -294,13 +294,13 @@ add_filter('wpbc/filter/get_query_form/form_elements', function($form_elements, 
 			),
 		);
 
-		$form_elements['orderby'] = array( 
+		$form_elements['p_orderby'] = array( 
 			'type'=>'radio',
 			'form_args'=>array( 
-				'form_id' => 'orderby',
+				'form_id' => 'p_orderby',
 				'label' => 'Order by',
 				
-				'current' => !empty($query['orderby']) ? $query['orderby'] : 'date',  
+				'current' => !empty($query['p_orderby']) ? $query['p_orderby'] : 'date',  
 				'items' => array(
 					'date'  => 'Date',
 					'modified' => 'Last modified',
