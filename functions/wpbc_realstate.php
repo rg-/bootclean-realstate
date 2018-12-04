@@ -61,6 +61,7 @@ function _WPBC_property_location__select($query, $args=array()){
 				'selected' => !empty($query['property_location']) ? $query['property_location'] : '',
 
 				// See: https://developer.snapappointments.com/bootstrap-select/options/
+				'data_attr' => 'data-live-search="true" data-showTick="true"',
 
 			), 
 			'show_actions_reset' => true, 
