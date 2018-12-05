@@ -1,7 +1,7 @@
 <?php
 
 
-add_filter('wpbc/filter/layout/main-navbar/defaults', function($args){ 
+add_filter('wpbc/filter/layout/main-navbar/defaults', function($args){  
 	$args['class'] = 'gpx-1 gpx-sm-0 navbar navbar-dark bg-primary navbar-expand-lg navbar-expand-aside collapse-right'; 
 	$args['navbar_toggler']['type'] = 'animate';
 	$args['navbar_toggler']['effect'] = 'cross'; 
